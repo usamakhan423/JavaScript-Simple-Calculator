@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculator</h1>
+        <table class="calculator">
+            <tr>
+                <td>
+                    <input type="text" id="input">
+                    <input type="button" value="c" id="clearScreen">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" data-num="1" class="btn">
+                    <input type="button" value="2" data-num="2" class="btn">
+                    <input type="button" value="3" data-num="3" class="btn">
+                    <input type="button" value="/" id="operator" data-num="/" class="btn">
+                </td>
+            <tr>
+                <td>
+                    <input type="button" value="4" data-num="4" class="btn">
+                    <input type="button" value="5" data-num="5" class="btn">
+                    <input type="button" value="6" data-num="6" class="btn">
+                    <input type="button" value="-" id="operator" data-num="-" class="btn">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <input type="button" value="7" data-num="7" class="btn">
+                    <input type="button" value="8" data-num="8" class="btn">
+                    <input type="button" value="9" data-num="9" class="btn">
+                    <input type="button" value="+" id="operator" data-num="+" class="btn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="." data-num="." class="btn">
+                    <input type="button" value="0" data-num="0" class="btn">
+                    <input type="button" value="=" data-num="=" id="equalTo">
+                    <input type="button" value="*" id="operator" data-num="*" class="btn">
+                </td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
